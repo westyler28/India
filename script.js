@@ -49,5 +49,20 @@ $("input[type=radio]").on("change", function () {
   document.getElementById("mySubmit").formTarget = "_self";
   document.getElementById("demo").innerHTML = "The value of the formtarget attribute was changed from '_blank' to '_self'.";
 }
+  
+  
+  
+   src="https://codepen.io/Westyler28/pen/RwJQPOE">
+
+$(document).ready(function(){
+  $("button").click(function(){
+    $("#div1").load("demo_test.txt");
+ 
+
+  
+  
+  
+  
+  
   });
 });
