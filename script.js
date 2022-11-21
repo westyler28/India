@@ -44,5 +44,10 @@ $("input[type=radio]").on("change", function () {
         .empty()
         .append(`<option value="banana">pick a letter...A or B</option>`);
     }
+  
+  function myFunction() {
+  document.getElementById("mySubmit").formTarget = "_self";
+  document.getElementById("demo").innerHTML = "The value of the formtarget attribute was changed from '_blank' to '_self'.";
+}
   });
 });
